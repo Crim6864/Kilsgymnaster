@@ -1,4 +1,5 @@
 /* Google Font's */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 /* Asterisk to override default styles added by browsers */
 * {
@@ -51,6 +52,12 @@ header a {
     list-style-type: none;
 }
 
+#menu a {
+    font-size: 130%;
+    font-family: 'Oswald' sans-serif;
+    letter-spacing: 2px;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -82,6 +89,38 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 90px;
+}
+
+#movement {
+    width: 90%;
+    margin: 20px auto;
+    letter-spacing: 2px;
+}
+
+#movement h2 {
+    font-size: 110%;
+    padding: 20px 0;
+}
+
+#movement p {
+    font-size: 110%;
+}
+
+#framsida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-framsida {
+    background: url('../images/framsida.webp') no-repeat top center / cover;
+        width: 90vw;
+        height: 90vw;
+        margin-bottom: 20px;
+        /* Makes the square image into a circle */
+        border-radius: 50%;
+        max-width: 300px;
+        max-height: 300px;
 }
 
 /* Footer */
