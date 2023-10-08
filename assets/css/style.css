@@ -22,6 +22,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+    font-family: 'Oswald' sans-serif;
 }
 
 .hidden-heading {
@@ -121,6 +122,39 @@ main {
         border-radius: 50%;
         max-width: 300px;
         max-height: 300px;
+}
+
+/* Training page */
+section {
+    margin:0 4px;
+}
+
+#priser {
+    margin-bottom: 8px;
+}
+
+#priser h1 {
+    text-align: center;
+}
+
+#priser a{
+    font-size: 120%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#betalning {
+    text-align: center;
+    font-size: 120%;
+}
+
+hr {
+    border: 1px solid #3a3a3a;
+}
+
+/* Training Groups */
+
+.training-groups {
+    margin: 2px 4px;
 }
 
 /* Footer */
