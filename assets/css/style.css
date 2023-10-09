@@ -29,6 +29,7 @@ h3 {
     display: none;
 }
 
+
 /* Header */
 header {
     background-color: #1bace4;
@@ -92,6 +93,33 @@ main {
     margin-top: 90px;
 }
 
+section a {
+    color: #1bace4;
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section h2 {
+    margin-top: 10px;
+    padding: 4px 0;
+    text-align: center;
+}
+
+section li {
+    list-style-type: none;
+}
+
+hr {
+    border: 1px solid #1bace4;
+    margin: 8px 0;
+}
+
+/* Index Styles */
+
 #movement {
     width: 90%;
     margin: 20px auto;
@@ -115,18 +143,19 @@ main {
 
 #circle-framsida {
     background: url('../images/framsida.webp') no-repeat top center / cover;
-        width: 90vw;
-        height: 90vw;
-        margin-bottom: 20px;
-        /* Makes the square image into a circle */
-        border-radius: 50%;
-        max-width: 300px;
-        max-height: 300px;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /* Training page */
 section {
-    margin:0 4px;
+    width: 90%;
+    margin: 20px auto;
 }
 
 #priser {
@@ -137,7 +166,7 @@ section {
     text-align: center;
 }
 
-#priser a{
+#priser a {
     font-size: 120%;
     font-family: 'Oswald', sans-serif;
 }
@@ -147,26 +176,13 @@ section {
     font-size: 120%;
 }
 
-hr {
-    border: 1px solid #1bace4;
-    margin: 8px 0;
-}
 
 .training-groups {
     margin: 2px 4px;
 }
 
-section h2 {
-    margin-top: 10px;
-    padding: 4px 0;
-}
 
 /* Om oss (About page) */
-section a {
-    color: #1bace4;
-    font-size: 110%;
-    letter-spacing: 2px;
-}
 
 /* Louise */
 
@@ -225,12 +241,12 @@ section a {
     text-align: center;
 }
 
-#contact a{
+#contact a {
     padding: 10px 0px;
     margin: 4px 0px;
 }
 
-#contact li{
+#contact li {
     padding: 10px 0;
 }
 
@@ -247,7 +263,7 @@ section a {
     font-family: 'Oswald', sans-serif;
 }
 
-#signup h1{
+#signup h1 {
     text-align: center;
 }
 
@@ -276,3 +292,130 @@ section a {
     padding: 5%;
     color: black;
 }
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+
+
+    .louise-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .sandra-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .isabell-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .olivia-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+    
+    .daniel-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .sabina-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+        /* Header styles*/
+            nav {
+                display: block;
+                position: relative;
+                box-shadow: none;
+                width: fit-content;
+                padding-right: 1rem;
+            }
+        
+            #menu {
+                display: flex;
+            }
+        
+            #menu>li {
+                padding-left: 1rem;
+            }
+        
+            .nav-toggle-label {
+                display: none;
+            }
+
+            /* main styles */
+   main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    main h1 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    hr {
+        display: none;
+    }
+
+    section {
+        width: 40%;
+        text-align: center;
+    }
+
+        /* About us styles */
+
+        .louise-bg-cover {
+            max-height: 300px;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+    
+        .sandra-bg-cover {
+            max-height: 300px;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+    
+        .isabell-bg-cover {
+            max-height: 300px;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+    
+        .olivia-bg-cover {
+            max-height: 300px;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+    
+        .daniel-bg-cover {
+            max-height: 300px;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+    
+        .sabina-bg-cover {
+            max-height: 300px;
+            max-width: 300px;
+            margin: 20px auto;
+        }
+
+}
+@media screen and (min-width: 1200px) {}
