@@ -148,13 +148,75 @@ section {
 }
 
 hr {
-    border: 1px solid #3a3a3a;
+    border: 1px solid #1bace4;
+    margin: 8px 0;
 }
 
-/* Training Groups */
+/* Training Page */
 
 .training-groups {
     margin: 2px 4px;
+}
+
+section h2 {
+    margin-top: 10px;
+    padding: 4px 0;
+}
+
+/* Om oss (About page) */
+section a {
+    color: #1bace4;
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+/* Louise */
+
+.louise-bg-cover {
+    width: 90vw;
+    height: 90vw;
+    background: url('../images/louise.webp') no-repeat center center/cover;
+}
+
+
+/* Sandra */
+
+.sandra-bg-cover {
+    width: 90vw;
+    height: 90vw;
+    background: url('../images/sandra.webp') no-repeat center center/cover;
+}
+
+/* Isabelle */
+
+.isabell-bg-cover {
+    width: 90vw;
+    height: 90vw;
+    background: url('../images/isabelle.webp') no-repeat center center/cover;
+}
+
+
+/* Olivia */
+
+.olivia-bg-cover {
+    width: 90vw;
+    height: 90vw;
+    background: url('../images/olivia.webp') no-repeat center center/cover;
+}
+
+
+/* Daniel */
+.daniel-bg-cover {
+    width: 90vw;
+    height: 90vw;
+    background: url('') no-repeat center center/cover;
+}
+
+/* Sabina */
+.sabina-bg-cover {
+    width: 90vw;
+    height: 90vw;
+    background: url('') no-repeat center center/cover;
 }
 
 /* Footer */
