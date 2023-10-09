@@ -219,6 +219,27 @@ section a {
     background: url('') no-repeat center center/cover;
 }
 
+
+
+/* Kontakt (contact us page) */
+
+#contact a{
+    padding: 10px 0px;
+    margin: 4px 0px;
+}
+
+#contact li{
+    padding: 10px 0;
+}
+
+#logga {
+    width: 90vw;
+    height: 90vw;
+    margin: 10px 0;
+    background: url('../images/KG_logo_black-4.webp') no-repeat center center/cover;
+}
+
+
 /* Footer */
 #social-networks {
     background-color: #1bace4;
