@@ -148,8 +148,6 @@ hr {
     margin-bottom: 20px;
     /* Makes the square image into a circle */
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
 }
 
 /* Training page */
@@ -320,7 +318,7 @@ section {
         max-width: 300px;
         margin: 20px auto;
     }
-    
+
     .daniel-bg-cover {
         max-height: 300px;
         max-width: 300px;
@@ -337,33 +335,34 @@ section {
 
 @media screen and (min-width: 1024px) {
 
-        /* Header styles*/
-            nav {
-                display: block;
-                position: relative;
-                box-shadow: none;
-                width: fit-content;
-                padding-right: 1rem;
-            }
-        
-            #menu {
-                display: flex;
-            }
-        
-            #menu>li {
-                padding-left: 1rem;
-            }
-        
-            .nav-toggle-label {
-                display: none;
-            }
+    /* Header styles*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
-            /* main styles */
-   main {
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* main styles */
+    main {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
     main h1 {
         width: 100%;
         display: block;
@@ -377,45 +376,58 @@ section {
     section {
         width: 40%;
         text-align: center;
+        font-size: 150%;
     }
 
-        /* About us styles */
 
-        .louise-bg-cover {
-            max-height: 300px;
-            max-width: 300px;
-            margin: 20px auto;
-        }
-    
-        .sandra-bg-cover {
-            max-height: 300px;
-            max-width: 300px;
-            margin: 20px auto;
-        }
-    
-        .isabell-bg-cover {
-            max-height: 300px;
-            max-width: 300px;
-            margin: 20px auto;
-        }
-    
-        .olivia-bg-cover {
-            max-height: 300px;
-            max-width: 300px;
-            margin: 20px auto;
-        }
-    
-        .daniel-bg-cover {
-            max-height: 300px;
-            max-width: 300px;
-            margin: 20px auto;
-        }
-    
-        .sabina-bg-cover {
-            max-height: 300px;
-            max-width: 300px;
-            margin: 20px auto;
-        }
+    /* About us styles */
+
+    .louise-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .sandra-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .isabell-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .olivia-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .daniel-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .sabina-bg-cover {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    #circle-framsida {
+        max-width: 600px;
+        max-height: 600px;
+        margin-right: 40px;
+    }
+
+    #logga {
+        max-width: 600px;
+        max-height: 600px;
+        margin-right: 40px;
+    }
 
 }
-@media screen and (min-width: 1200px) {}
