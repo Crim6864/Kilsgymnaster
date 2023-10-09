@@ -152,8 +152,6 @@ hr {
     margin: 8px 0;
 }
 
-/* Training Page */
-
 .training-groups {
     margin: 2px 4px;
 }
@@ -223,6 +221,10 @@ section a {
 
 /* Kontakt (contact us page) */
 
+#contact h1 {
+    text-align: center;
+}
+
 #contact a{
     padding: 10px 0px;
     margin: 4px 0px;
@@ -239,6 +241,25 @@ section a {
     background: url('../images/KG_logo_black-4.webp') no-repeat center center/cover;
 }
 
+/* Sign Up*/
+
+#signup {
+    font-family: 'Oswald', sans-serif;
+}
+
+#signup h1{
+    text-align: center;
+}
+
+#signup p {
+    font-size: 110%;
+    color: #1bace4;
+    margin: 4px 0;
+}
+
+#signup li {
+    padding: 10px 0;
+}
 
 /* Footer */
 #social-networks {
