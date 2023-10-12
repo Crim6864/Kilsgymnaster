@@ -1,4 +1,4 @@
-<p align="center"><img src="/assets/images/responsive.png" alt="drawing" width="800"/></p>
+<p align="center"><img src="/assets/images/responsive.webp" alt="drawing" width="800"/></p>
 
 
 # Introduction
@@ -130,22 +130,22 @@ While the current version of the project is fully functional, we have some excit
 #### Lighthouse
 
 **Introduction**
-This report presents the results of Lighthouse testing conducted to assess the performance, accessibility, best practices, SEO, and PWA compliance of [Website Name].
+In this report we will see the test in lighthouse wher the Google Chrome's DevTools test Performance, Accessibility, Best Practices and SEO.
 
 **Test Execution**
 Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 **Test Metrics**
-- Performance Score: 81
-- Accessibility Score: 93
-- Best Practices Score: 92
-- SEO Score: 92
+- Performance Score: 96
+- Accessibility Score: 100
+- Best Practices Score: 100
+- SEO Score: 100
 
 **Detailed Results**
-- **Performance**: The website's performance score is 81, indicating good overall performance. However, there is room for improvement to further optimize loading times.
-- **Accessibility**: The website excels in accessibility, with a score of 93, indicating strong adherence to accessibility standards. Minimal accessibility issues were detected.
-- **Best Practices**: The website follows best practices with a score of 92. There are minor areas for improvement, particularly in script loading.
-- **SEO**: SEO performance is strong, with a score of 92. The website has well-optimized meta tags and structured data markup.
+- **Performance**: The performance of the website is 96 and thats fantastic but there are some places where the code can be more optimized. And you can save some milliseconds and KiB here and there.
+- **Accessibility**: The accessibility has a score of 100 but i still feel there is probably something more to be done and things i have not tought about.
+- **Best Practices**: The website follows best practices with a score of 100. The thing i miss to test i java scripts because i have none in this project.
+- **SEO**: SEO performance is outstanding with 100 score. It is well optimized for search engines.
 
 **Areas for Improvement**
 - Performance can be enhanced by optimizing resource loading and reducing unnecessary requests.
@@ -155,19 +155,18 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 **Visuals**
 
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1692960667/Screenshot_2023-08-25_at_11.50.29_cfmkxt.png" alt="drawing" width="800"/></p>
+<p align="center"><img src="/assets/images/lighthouse.webp" alt="drawing" width="800"/></p>
 
 <hr>
 
 #### Browsers
 
 **Supported Browsers and Devices**
-Our web application is officially tested and supported on the following browsers and devices:
+This web application is officially tested and supported on the following browsers and devices:
 - Google Chrome (latest version)
-- Mozilla Firefox (latest version)
 
 **Responsiveness Testing**
-We conduct manual responsiveness testing on Chrome and Firefox to ensure a seamless user experience.
+We conduct manual responsiveness testing on Chrome to ensure a seamless user experience.
 
 **Test Results**
 
@@ -179,7 +178,7 @@ We conduct manual responsiveness testing on Chrome and Firefox to ensure a seaml
 | Mobile (iPhone X)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
 
 **Known Issues**
-- [List any known responsiveness issues or limitations]
+- No Issues where found.
 
 **Recommendations**
 If you encounter any responsiveness issues, we recommend:
