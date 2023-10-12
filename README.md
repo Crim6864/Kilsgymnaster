@@ -94,36 +94,32 @@ You will need to explain what value each of the features provides for the user, 
 
 
 ## Future Features
-While the current version of the project is fully functional, we have some exciting features planned for future updates. Here are a few ideas that we didn't have time to implement in this release:
+Right now the product is fully functional but there are many more features to be added in the future. 
 
-1. **Client Galleries**:
-   - Allow photographers to create private galleries for clients to view and download their photos securely.
-2. **Online Booking and Scheduling**:
-   - Implement a booking system that allows clients to schedule sessions with photographers, choose dates, and make payments online.
-3. **Photo Editing Tools**:
-   - Integrate basic photo editing tools like cropping, rotating, and applying filters directly on the website to enhance user-generated photos.
-4. **Print Ordering**:
-   - Enable clients to order prints, canvases, or other products featuring their favorite photos directly from the website.
-5. **Portfolio Builder**:
-   - Provide photographers with tools to easily create and customize their online portfolios, including options for different styles and layouts.
+1. **Register / Login system**:
+   - Member registration and login system so we can keep track of who is registered and not.
+2. **Online attendence**:
+   - Attandence to make it easier for our leaders and alwayes have an up to date list.
+3. **Payment system**:
+   - Integrated payment system so we can see who paid and who did not.
+4. **Admin panel**:
+   - Admin panel where we can organise our groups, information and leaders.
+5. **Parent control & registration**:
+   - A function where parents can register thier children for a spot in one of our groups is not full.
 6. **Blog or News Section**:
-   - Add a blog or news section to share photography tips, behind-the-scenes stories, and updates about your services.
+   - Add more behind the scenes photos and work that we do that people do not think about.
 
 <hr>
 
-## Manual Testing 
 
 #### Features Testing
 
 |  Feature |  Action | Effect |
 |---|---|---|
 |Logo|Click|Brings back to Home page|
-|Navbar Links|Click on Gallery|Opens Gallery|
-||Click on About|Opens About page|
-||Click on Contact|Opens Contact page|
-|Contact Page|Fill out the form and submit|A form dump is rendered|
+|Navbar Links|Click on any link and it works|Opens the link you clicked|
 ||Attempt to submit empty|Error pops up in field that's left empty|
-|Social Media Links|Test Instagram link|Instagram profile opens in a separate tab|
+|Social Media Links|Test Instagram & Facebook link|Instagram profile opens in a separate tab|
 
 <hr>
 
@@ -136,22 +132,19 @@ In this report we will see the test in lighthouse wher the Google Chrome's DevTo
 Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 **Test Metrics**
-- Performance Score: 96
+- Performance Score: 99
 - Accessibility Score: 100
 - Best Practices Score: 100
 - SEO Score: 100
 
 **Detailed Results**
-- **Performance**: The performance of the website is 96 and thats fantastic but there are some places where the code can be more optimized. And you can save some milliseconds and KiB here and there.
+- **Performance**: The performance of the website is 99 and thats fantastic but there are some places where the code can be more optimized. And you can save some milliseconds and KiB here and there.
 - **Accessibility**: The accessibility has a score of 100 but i still feel there is probably something more to be done and things i have not tought about.
 - **Best Practices**: The website follows best practices with a score of 100. The thing i miss to test i java scripts because i have none in this project.
 - **SEO**: SEO performance is outstanding with 100 score. It is well optimized for search engines.
 
 **Areas for Improvement**
-- Performance can be enhanced by optimizing resource loading and reducing unnecessary requests.
-- Continue monitoring accessibility to maintain a high standard and address any emerging issues.
-- Best practices can be further improved by optimizing script loading and code splitting.
-- Maintain and regularly update meta tags and structured data markup to ensure strong SEO performance.
+- Even if i scored high there are alwayes ways to improve. Optimize pictures, CSS & scripts.
 
 **Visuals**
 
@@ -170,12 +163,12 @@ We conduct manual responsiveness testing on Chrome to ensure a seamless user exp
 
 **Test Results**
 
-| Device/Screen Size  | Chrome Performance | Firefox Performance |
-|----------------------|--------------------|---------------------|
-| Desktop (1920x1080) | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Laptop (1366x768)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Tablet (iPad)       | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Mobile (iPhone X)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
+| Device/Screen Size  | Chrome Performance |
+|----------------------|--------------------|
+| Desktop (1920x1080) | None | 
+| Laptop (1366x768)   | None | 
+| Tablet (iPad)       | None | 
+| Mobile (iPhone X)   | None | 
 
 **Known Issues**
 - No Issues where found.
@@ -187,89 +180,6 @@ If you encounter any responsiveness issues, we recommend:
 
 <hr>
 
-#### Screen Sizes testing
-
-**Introduction**
-This section provides an overview of how our web application [Website Name] performs across different screen sizes.
-
-**Supported Screen Sizes**
-Our web application is designed to be responsive and adapt to various screen sizes. Below are the screen sizes we have tested:
-
-| Screen Size     | Description             |
-|-----------------|-------------------------|
-| Desktop         | 1920x1080 pixels        |
-| Laptop          | 1366x768 pixels         |
-| Tablet (iPad)   | 768x1024 pixels (portrait) and 1024x768 pixels (landscape) |
-| Mobile (iPhone) | 375x812 pixels (iPhone X, portrait) and 812x375 pixels (iPhone X, landscape) |
-
-**Testing Results**
-
-| Screen Size     | Test Results           |
-|-----------------|------------------------|
-| Desktop         | Describe performance and issues on different browsers |
-| Laptop          | Describe performance and issues on different browsers |
-| Tablet (iPad)   | Describe performance and issues on different browsers |
-| Mobile (iPhone) | Describe performance and issues on different browsers |
-
-<hr> 
-
-#### Bugs Resolved
-
-
-**Introduction**
-This section provides a summary of bugs that have been identified, reported, and subsequently resolved in [Website Name].
-
-**Bug Tracking**
-Below is a summary of resolved bugs:
-
-| Bug ID | Bug Description | Status |
-|--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Resolved |
-| #002   | Describe the bug and its impact on the user experience. | Resolved |
-| #003   | Describe the bug and its impact on the user experience. | Resolved |
-| #004   | Describe the bug and its impact on the user experience. | Resolved |
-| #005   | Describe the bug and its impact on the user experience. | Resolved |
-
-**Bug Details**
-Here are the details of the resolved bugs:
-
-**Bug #001**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #002**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #003**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #004**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #005**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-<hr>
-
-#### Bugs Unresolved(if applicable)
-
-| Bug ID | Bug Description | Status |
-|--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Unesolved |
-| #002   | Describe the bug and its impact on the user experience. | Unesolved |
-| #003   | Describe the bug and its impact on the user experience. | Unesolved |
-| #004   | Describe the bug and its impact on the user experience. | Unesolved |
-| #005   | Describe the bug and its impact on the user experience. | Unesolved |
-<hr>
 
 #### Validator Testing 
 - HTML
@@ -293,12 +203,11 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-Code Institute: Love Running Project. *Navbar & Footer
+Code Institute: Love Running Project. *Navbar & Footer*
 
 #### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- The development of this project was aided by the following YouTube tutorials:
+- The text where transfered from our old website.
 
 | Tutorial Title      | Creator/Channel Name | Description                                          |
 |---------------------|-----------------------|------------------------------------------------------|
