@@ -22,7 +22,6 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
-    font-family: 'Oswald' sans-serif;
 }
 
 p,
@@ -67,7 +66,6 @@ header a {
 
 #menu a {
     font-size: 130%;
-    font-family: 'Oswald' sans-serif;
     letter-spacing: 2px;
 }
 
@@ -500,7 +498,7 @@ section {
     #circle-framsida {
         max-width: 300px;
         max-height: 300px;
-        margin-right: 10px auto;
+        margin: 10px auto;
     }
 
     #logga {
