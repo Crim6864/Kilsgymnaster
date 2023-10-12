@@ -2,7 +2,7 @@
 
 
 # Introduction
-Hello and welcome to my first project at Code Institute.
+Hello and welcome to my first project at Code Institute. This is a HTML and CSS based project.
 
 
 # Kils Gymnaster
@@ -282,7 +282,7 @@ Here are the details of the resolved bugs:
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+Deployed to Github Pages, the following steps can be found under this comment. 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -294,10 +294,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. 
-It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+Code Institute: Love Running Project. *Navbar & Footer
 
 #### Content 
 
@@ -306,11 +303,10 @@ You can break the credits section up into Content and Media, depending on what y
 
 | Tutorial Title      | Creator/Channel Name | Description                                          |
 |---------------------|-----------------------|------------------------------------------------------|
-| [Tutorial Title 1](link-to-tutorial) | [Creator/Channel Name 1] | How this tutorial helped you.             |
-| [Tutorial Title 2](link-to-tutorial) | [Creator/Channel Name 2] | How this tutorial contributed to your project. |
+| [Tutorial Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) | [Code Institute] | It helped me with an idéa for the footer & navbar.     |
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 #### Media
 
-The following images used in this project are sourced from Unsplash and are used under their respective licenses:
+The images where from my Organisation.
