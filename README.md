@@ -14,79 +14,40 @@ This project it for the nonprofit organization that i am a gymnastic trainer in,
 I created this project to better market ourselves and for future updates where we can register new members, take attendance and see the financials.
 Currently it aims to solve our marketing problem and make for a better communication with our audiance.
 
-### How it benefits the Users, Users Demographic - Whom does the site target and how will it benefit them
-
-
-
-
 # Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. 
-You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 <hr> 
 
 **Navbar**
 
-  - Featured on all three pages, the fully responsive navigation bar includes links to the logo, home page, gallery, and sign-up page. It is identical on each page to facilitate easy navigation.
-  - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button.
+  - Fully featured navbar where all links works even the logo takes you back home. Responsive on all devices and screens.
+  - The navbar allows the user to access all the content we have to offer.
 
-  <details><summary>Navbar Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
+</details>
 
 <hr> 
 
-**Services**
 
-  - Services section highlights available to the client services in a form of cards, each with a Call To Action button leading to the Contact form 
+**Training**
 
-  <details><summary>Services Screenshot</summary>
+  - Here they can find all the information needed to get started.
+  - This section is valuable for us because people will not e-mail us questions about prices and what groups there are. 
 
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
-
-<hr> 
-
-**The Gallery**
-
-  - Gallery showcases various artwork by the Photographer, or images of past events
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-  <details><summary>Gallery Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
 
 <hr> 
 
 **Contact Form**
 
-  - An interactive contact form to enable users to get in touch with the company
-  - Includes fields for name, email and a message
-
-  <details><summary>Contact Form Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
+  - Our contact form makes sure the user get connected to the right place.
+  - Includes fields for name, email and a message.
 
 <hr> 
 
 **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - Our footer will take the user to the social media pages we use, it will open in a new page. 
+  - The best thing is that is's easy to find and encourages our users to go visit our social pages.
 
-  <details><summary>Footer Screenshot</summary>
-
-   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
 
 <hr> 
 
@@ -185,7 +146,11 @@ If you encounter any responsiveness issues, we recommend:
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcrim6864.github.io%2FKilsgymnaster%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator]<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
 
 
 
@@ -208,6 +173,7 @@ Code Institute: Love Running Project. *Navbar & Footer*
 #### Content 
 
 - The text where transfered from our old website.
+- The README organisation credit goes to Bezebee [BezeBee README](https://github.com/bezebee/My-First-Project/blob/main/README.md)
 
 | Tutorial Title      | Creator/Channel Name | Description                                          |
 |---------------------|-----------------------|------------------------------------------------------|
