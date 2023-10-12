@@ -79,7 +79,7 @@ Right now the product is fully functional but there are many more features to be
 |---|---|---|
 |Logo|Click|Brings back to Home page|
 |Navbar Links|Click on any link and it works|Opens the link you clicked|
-||Attempt to submit empty|Error pops up in field that's left empty|
+|E-mail form|Attempt to submit empty|Error pops up in field that's left empty|
 |Social Media Links|Test Instagram & Facebook link|Instagram profile opens in a separate tab|
 
 <hr>
@@ -113,40 +113,11 @@ Lighthouse tests were executed using the Google Chrome browser's DevTools.
 
 <hr>
 
-#### Browsers
-
-**Supported Browsers and Devices**
-This web application is officially tested and supported on the following browsers and devices:
-- Google Chrome (latest version)
-
-**Responsiveness Testing**
-We conduct manual responsiveness testing on Chrome to ensure a seamless user experience.
-
-**Test Results**
-
-| Device/Screen Size  | Chrome Performance |
-|----------------------|--------------------|
-| Desktop (1920x1080) | None | 
-| Laptop (1366x768)   | None | 
-| Tablet (iPad)       | None | 
-| Mobile (iPhone X)   | None | 
-
-**Known Issues**
-- No Issues where found.
-
-**Recommendations**
-If you encounter any responsiveness issues, we recommend:
-- Updating your browser to the latest version.
-- Trying an alternative device or screen size for optimal viewing.
-
-<hr>
-
-
 #### Validator Testing 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcrim6864.github.io%2FKilsgymnaster%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]<a href="http://jigsaw.w3.org/css-validator/check/referer">
+  - No errors were found when passing through the official [Jigsaw validator]<a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
         alt="Valid CSS!" />
@@ -173,11 +144,11 @@ Code Institute: Love Running Project. *Navbar & Footer*
 #### Content 
 
 - The text where transfered from our old website.
-- The README organisation credit goes to Bezebee [BezeBee README](https://github.com/bezebee/My-First-Project/blob/main/README.md)
+- The README organisation credit goes to [BezeBee](https://github.com/bezebee/My-First-Project/blob/main/README.md)
 
 | Tutorial Title      | Creator/Channel Name | Description                                          |
 |---------------------|-----------------------|------------------------------------------------------|
-| [Tutorial Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) | [Code Institute] | It helped me with an idéa for the footer & navbar.     |
+| [Tutorial Love Running Project](https://code-institute-org.github.io/love-running-2.0/index.html) | Code Institute | It helped me with an idéa for the footer & navbar.     |
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
